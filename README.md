@@ -16,7 +16,7 @@
 
 ---
 
-[Demo Link <br>![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://reactquiz-of3i.onrender.com/)
+[Demo Link <br>![Render](https://img.shields.io/badge/Render-%2346E3B7.svg?style=for-the-badge&logoColor=white)](https://reactquiz-of3i.onrender.com/)
 
 <h2>💁 Info:</h2>
 
