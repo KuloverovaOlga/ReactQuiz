@@ -1,0 +1,19 @@
+.tab {
+  padding: 16px 25px 18px;
+  white-space: nowrap;
+  width: fit-content;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5) inset;
+
+  background: var(--darkGreen);
+  color: var(--lightGreen);
+  border-radius: 16px;
+  transition:
+    background 0.3s,
+    box-shadow 0.3s;
+  &:hover,
+  &.isActive {
+    background: var(--tabBg);
+
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5) inset;
+  }
+}

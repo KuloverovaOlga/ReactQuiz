@@ -1,0 +1,62 @@
+.quiz {
+  background-color: var(--itemBg);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5) inset;
+  max-width: 690px;
+  width: 100%;
+  padding: 30px 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-size: 36px;
+}
+.main {
+  background-color: var(--darkGreen);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5) inset;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px 22px 20px;
+  border-radius: 10px;
+}
+.question {
+  color: var(--bg);
+  text-shadow:
+    1.41px 1.41px var(--black),
+    2px 0 var(--black),
+    1.41px -1.41px var(--black),
+    0 -2px var(--black),
+    -1.41px -1.41px var(--black),
+    -2px 0 var(--black),
+    -1.41px 1.41px var(--black),
+    0 2px var(--black);
+}
+.answers {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.btns {
+  display: flex;
+  align-self: end;
+}
+.btn {
+  &:disabled {
+    opacity: 0.3;
+  }
+  & svg {
+    transition: color 0.3s ease-in;
+    pointer-events: none;
+    color: var(--itemBg);
+  }
+  :hover svg {
+    color: var(--darkGreen);
+  }
+}

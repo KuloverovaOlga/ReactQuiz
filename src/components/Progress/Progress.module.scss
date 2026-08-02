@@ -1,0 +1,44 @@
+.progress {
+  background-color: var(--darkGreen);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5) inset;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 22px;
+  border-radius: 10px;
+  flex: 1;
+  width: 100%;
+}
+.bar {
+  flex-grow: 1;
+  height: 16px;
+  border-radius: 10px;
+  background-color: #134126;
+  overflow: hidden;
+  position: relative;
+}
+.thumb {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  border-radius: 16px;
+  background: linear-gradient(180deg, #5fc93a 0%, rgba(148, 211, 14, 0) 150%);
+  transition: all 0.3s ease-in-out;
+}
+.question {
+  color: var(--bg);
+  text-shadow:
+    1.41px 1.41px var(--black),
+    2px 0 var(--black),
+    1.41px -1.41px var(--black),
+    0 -2px var(--black),
+    -1.41px -1.41px var(--black),
+    -2px 0 var(--black),
+    -1.41px 1.41px var(--black),
+    0 2px var(--black);
+
+  display: flex;
+  gap: 8px;
+}
