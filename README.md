@@ -1,16 +1,42 @@
-# React + Vite
+<h1>React Todo List</h1> 
+<sub>task manager react</sub>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>🛠 Use Skills:</h2>
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Render](https://img.shields.io/badge/Render-%2346E3B7.svg?style=for-the-badge&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+[Demo Link <br>![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://reactquiz-of3i.onrender.com/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<h2>💁 Info:</h2>
 
-## Expanding the ESLint configuration
+React (useState, useEffect, useRef)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Redux Toolkit (createSlice, createAsyncThunk, useSelector, useDispatch)
+
+React Router DOM (createBrowserRouter, RouterProvider, Outlet, useNavigate, useParams)
+
+localStorage API — (бейджи 100% прохождения)
+
+Sass Modules (SCSS) / CSS-модули
+
+фильтрация по категориям, поиск по названию и порционный вывод карточек
+
+Render — деплой на облачный хостинг с автоматическим деплоем при пуше
+
+<h2>📱 My contacts:</h2> 
+<ul>
+ <li>Email: <a href="mailto:kuloverova.olga@mail.ru">📧 kuloverova.olga@mail.ru</a></li>
+ <li>Telegram:  <a href="https://t.me/kuloverova_olga">💬 @kuloverova_olga</a></li>
+ <li>Website:  <a href="https://kuloverovaolga.github.io/Portfolio/dist/">💻 kuloverovaolga.github.io/Portfolio/dist/</a></li>
+</ul>
