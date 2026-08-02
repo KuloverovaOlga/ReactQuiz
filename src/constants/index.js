@@ -10,4 +10,5 @@ export const CATEGORIES = [
   { id: 4, name: 'Фильмы' }
 ];
 
+
 export const ITEMS_PER_PAGE = 4;
